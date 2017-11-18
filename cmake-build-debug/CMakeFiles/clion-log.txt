@@ -1,4 +1,15 @@
 "D:\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Code\DataStructure
 -- Configuring done
+CMake Error at CMakeLists.txt:7 (add_executable):
+  Cannot find source file:
+
+    3week.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: DataStructure
+CMake Error: Cannot determine link language for target "DataStructure".
 -- Generating done
 -- Build files have been written to: D:/Code/DataStructure/cmake-build-debug

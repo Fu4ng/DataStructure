@@ -122,60 +122,6 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-3week.obj: 3week.cpp.obj
-
-.PHONY : 3week.obj
-
-# target to build an object file
-3week.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/3week.cpp.obj
-.PHONY : 3week.cpp.obj
-
-3week.i: 3week.cpp.i
-
-.PHONY : 3week.i
-
-# target to preprocess a source file
-3week.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/3week.cpp.i
-.PHONY : 3week.cpp.i
-
-3week.s: 3week.cpp.s
-
-.PHONY : 3week.s
-
-# target to generate assembly for a file
-3week.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/3week.cpp.s
-.PHONY : 3week.cpp.s
-
-SqList.obj: SqList.cpp.obj
-
-.PHONY : SqList.obj
-
-# target to build an object file
-SqList.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/SqList.cpp.obj
-.PHONY : SqList.cpp.obj
-
-SqList.i: SqList.cpp.i
-
-.PHONY : SqList.i
-
-# target to preprocess a source file
-SqList.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/SqList.cpp.i
-.PHONY : SqList.cpp.i
-
-SqList.s: SqList.cpp.s
-
-.PHONY : SqList.s
-
-# target to generate assembly for a file
-SqList.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/SqList.cpp.s
-.PHONY : SqList.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +131,6 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 3week.obj
-	@echo ... 3week.i
-	@echo ... 3week.s
-	@echo ... SqList.obj
-	@echo ... SqList.i
-	@echo ... SqList.s
 .PHONY : help
 
 
