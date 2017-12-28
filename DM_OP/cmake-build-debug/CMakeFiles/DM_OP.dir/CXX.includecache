@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/DM_OP/DM_OP.cpp
+iostream
+-
+DM_OP_h.h
+D:/Code/DM_OP/DM_OP_h.h
+
+D:/Code/DM_OP/DM_OP_h.h
+
+D:/Code/DM_OP/main.cpp
+iostream
+-
+DM_OP_h.h
+D:/Code/DM_OP/DM_OP_h.h
+
