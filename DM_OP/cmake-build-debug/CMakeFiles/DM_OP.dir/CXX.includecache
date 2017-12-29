@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Code/DM_OP/DM_OP.cpp
+D:/Code/DataStructure/DM_OP/DM_OP.cpp
+iostream
+-
+cstring
+-
+DM_OP_h.h
+D:/Code/DataStructure/DM_OP/DM_OP_h.h
+
+D:/Code/DataStructure/DM_OP/DM_OP_h.h
+
+D:/Code/DataStructure/DM_OP/main.cpp
 iostream
 -
 DM_OP_h.h
-D:/Code/DM_OP/DM_OP_h.h
-
-D:/Code/DM_OP/DM_OP_h.h
-
-D:/Code/DM_OP/main.cpp
-iostream
--
-DM_OP_h.h
-D:/Code/DM_OP/DM_OP_h.h
+D:/Code/DataStructure/DM_OP/DM_OP_h.h
 

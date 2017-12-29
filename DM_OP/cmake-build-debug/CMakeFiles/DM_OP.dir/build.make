@@ -42,10 +42,10 @@ RM = "D:\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code\DM_OP
+CMAKE_SOURCE_DIR = D:\Code\DataStructure\DM_OP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\DM_OP\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\DataStructure\DM_OP\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DM_OP.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/DM_OP.dir/flags.make
 
 CMakeFiles/DM_OP.dir/main.cpp.obj: CMakeFiles/DM_OP.dir/flags.make
 CMakeFiles/DM_OP.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\DM_OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DM_OP.dir/main.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DM_OP.dir\main.cpp.obj -c D:\Code\DM_OP\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\DataStructure\DM_OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DM_OP.dir/main.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DM_OP.dir\main.cpp.obj -c D:\Code\DataStructure\DM_OP\main.cpp
 
 CMakeFiles/DM_OP.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DM_OP.dir/main.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\DM_OP\main.cpp > CMakeFiles\DM_OP.dir\main.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\DataStructure\DM_OP\main.cpp > CMakeFiles\DM_OP.dir\main.cpp.i
 
 CMakeFiles/DM_OP.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DM_OP.dir/main.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\DM_OP\main.cpp -o CMakeFiles\DM_OP.dir\main.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\DataStructure\DM_OP\main.cpp -o CMakeFiles\DM_OP.dir\main.cpp.s
 
 CMakeFiles/DM_OP.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/DM_OP.dir/main.cpp.obj.provides.build: CMakeFiles/DM_OP.dir/main.cpp.
 
 CMakeFiles/DM_OP.dir/DM_OP.cpp.obj: CMakeFiles/DM_OP.dir/flags.make
 CMakeFiles/DM_OP.dir/DM_OP.cpp.obj: ../DM_OP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\DM_OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DM_OP.dir/DM_OP.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DM_OP.dir\DM_OP.cpp.obj -c D:\Code\DM_OP\DM_OP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\DataStructure\DM_OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DM_OP.dir/DM_OP.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DM_OP.dir\DM_OP.cpp.obj -c D:\Code\DataStructure\DM_OP\DM_OP.cpp
 
 CMakeFiles/DM_OP.dir/DM_OP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DM_OP.dir/DM_OP.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\DM_OP\DM_OP.cpp > CMakeFiles\DM_OP.dir\DM_OP.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\DataStructure\DM_OP\DM_OP.cpp > CMakeFiles\DM_OP.dir\DM_OP.cpp.i
 
 CMakeFiles/DM_OP.dir/DM_OP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DM_OP.dir/DM_OP.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\DM_OP\DM_OP.cpp -o CMakeFiles\DM_OP.dir\DM_OP.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\DataStructure\DM_OP\DM_OP.cpp -o CMakeFiles\DM_OP.dir\DM_OP.cpp.s
 
 CMakeFiles/DM_OP.dir/DM_OP.cpp.obj.requires:
 
@@ -118,7 +118,7 @@ DM_OP.exe: CMakeFiles/DM_OP.dir/build.make
 DM_OP.exe: CMakeFiles/DM_OP.dir/linklibs.rsp
 DM_OP.exe: CMakeFiles/DM_OP.dir/objects1.rsp
 DM_OP.exe: CMakeFiles/DM_OP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\DM_OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DM_OP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\DataStructure\DM_OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DM_OP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DM_OP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/DM_OP.dir/clean:
 .PHONY : CMakeFiles/DM_OP.dir/clean
 
 CMakeFiles/DM_OP.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\DM_OP D:\Code\DM_OP D:\Code\DM_OP\cmake-build-debug D:\Code\DM_OP\cmake-build-debug D:\Code\DM_OP\cmake-build-debug\CMakeFiles\DM_OP.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\DataStructure\DM_OP D:\Code\DataStructure\DM_OP D:\Code\DataStructure\DM_OP\cmake-build-debug D:\Code\DataStructure\DM_OP\cmake-build-debug D:\Code\DataStructure\DM_OP\cmake-build-debug\CMakeFiles\DM_OP.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DM_OP.dir/depend
 
