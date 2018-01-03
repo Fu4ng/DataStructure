@@ -47,10 +47,10 @@ RM = "D:\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code\HuffmanTree
+CMAKE_SOURCE_DIR = D:\Code\DataStructure\HuffmanTree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\HuffmanTree\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\DataStructure\HuffmanTree\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,33 +176,6 @@ HuffmanTree.cpp.s:
 	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.s
 .PHONY : HuffmanTree.cpp.s
 
-functions.obj: functions.cpp.obj
-
-.PHONY : functions.obj
-
-# target to build an object file
-functions.cpp.obj:
-	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/functions.cpp.obj
-.PHONY : functions.cpp.obj
-
-functions.i: functions.cpp.i
-
-.PHONY : functions.i
-
-# target to preprocess a source file
-functions.cpp.i:
-	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/functions.cpp.i
-.PHONY : functions.cpp.i
-
-functions.s: functions.cpp.s
-
-.PHONY : functions.s
-
-# target to generate assembly for a file
-functions.cpp.s:
-	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/functions.cpp.s
-.PHONY : functions.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -245,9 +218,6 @@ help:
 	@echo ... HuffmanTree.obj
 	@echo ... HuffmanTree.i
 	@echo ... HuffmanTree.s
-	@echo ... functions.obj
-	@echo ... functions.i
-	@echo ... functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

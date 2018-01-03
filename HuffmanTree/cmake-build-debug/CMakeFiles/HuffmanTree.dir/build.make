@@ -42,10 +42,10 @@ RM = "D:\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code\HuffmanTree
+CMAKE_SOURCE_DIR = D:\Code\DataStructure\HuffmanTree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\HuffmanTree\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\DataStructure\HuffmanTree\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HuffmanTree.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/HuffmanTree.dir/flags.make
 
 CMakeFiles/HuffmanTree.dir/main.cpp.obj: CMakeFiles/HuffmanTree.dir/flags.make
 CMakeFiles/HuffmanTree.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HuffmanTree.dir/main.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HuffmanTree.dir\main.cpp.obj -c D:\Code\HuffmanTree\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HuffmanTree.dir/main.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HuffmanTree.dir\main.cpp.obj -c D:\Code\DataStructure\HuffmanTree\main.cpp
 
 CMakeFiles/HuffmanTree.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HuffmanTree.dir/main.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\HuffmanTree\main.cpp > CMakeFiles\HuffmanTree.dir\main.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\DataStructure\HuffmanTree\main.cpp > CMakeFiles\HuffmanTree.dir\main.cpp.i
 
 CMakeFiles/HuffmanTree.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HuffmanTree.dir/main.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\HuffmanTree\main.cpp -o CMakeFiles\HuffmanTree.dir\main.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\DataStructure\HuffmanTree\main.cpp -o CMakeFiles\HuffmanTree.dir\main.cpp.s
 
 CMakeFiles/HuffmanTree.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/HuffmanTree.dir/main.cpp.obj.provides.build: CMakeFiles/HuffmanTree.d
 
 CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj: CMakeFiles/HuffmanTree.dir/flags.make
 CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj: ../HuffmanTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HuffmanTree.dir\HuffmanTree.cpp.obj -c D:\Code\HuffmanTree\HuffmanTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HuffmanTree.dir\HuffmanTree.cpp.obj -c D:\Code\DataStructure\HuffmanTree\HuffmanTree.cpp
 
 CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\HuffmanTree\HuffmanTree.cpp > CMakeFiles\HuffmanTree.dir\HuffmanTree.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\DataStructure\HuffmanTree\HuffmanTree.cpp > CMakeFiles\HuffmanTree.dir\HuffmanTree.cpp.i
 
 CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\HuffmanTree\HuffmanTree.cpp -o CMakeFiles\HuffmanTree.dir\HuffmanTree.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\DataStructure\HuffmanTree\HuffmanTree.cpp -o CMakeFiles\HuffmanTree.dir\HuffmanTree.cpp.s
 
 CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj.provides.build: CMakeFiles/Huffma
 
 CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj: CMakeFiles/HuffmanTree.dir/flags.make
 CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj: ../HuffmanCode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HuffmanTree.dir\HuffmanCode.cpp.obj -c D:\Code\HuffmanTree\HuffmanCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HuffmanTree.dir\HuffmanCode.cpp.obj -c D:\Code\DataStructure\HuffmanTree\HuffmanCode.cpp
 
 CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\HuffmanTree\HuffmanCode.cpp > CMakeFiles\HuffmanTree.dir\HuffmanCode.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\DataStructure\HuffmanTree\HuffmanCode.cpp > CMakeFiles\HuffmanTree.dir\HuffmanCode.cpp.i
 
 CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\HuffmanTree\HuffmanCode.cpp -o CMakeFiles\HuffmanTree.dir\HuffmanCode.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\DataStructure\HuffmanTree\HuffmanCode.cpp -o CMakeFiles\HuffmanTree.dir\HuffmanCode.cpp.s
 
 CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj.requires:
 
@@ -128,36 +128,11 @@ CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj.provides: CMakeFiles/HuffmanTree.
 CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj.provides.build: CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj
 
 
-CMakeFiles/HuffmanTree.dir/functions.cpp.obj: CMakeFiles/HuffmanTree.dir/flags.make
-CMakeFiles/HuffmanTree.dir/functions.cpp.obj: ../functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HuffmanTree.dir/functions.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HuffmanTree.dir\functions.cpp.obj -c D:\Code\HuffmanTree\functions.cpp
-
-CMakeFiles/HuffmanTree.dir/functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HuffmanTree.dir/functions.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\HuffmanTree\functions.cpp > CMakeFiles\HuffmanTree.dir\functions.cpp.i
-
-CMakeFiles/HuffmanTree.dir/functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HuffmanTree.dir/functions.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\HuffmanTree\functions.cpp -o CMakeFiles\HuffmanTree.dir\functions.cpp.s
-
-CMakeFiles/HuffmanTree.dir/functions.cpp.obj.requires:
-
-.PHONY : CMakeFiles/HuffmanTree.dir/functions.cpp.obj.requires
-
-CMakeFiles/HuffmanTree.dir/functions.cpp.obj.provides: CMakeFiles/HuffmanTree.dir/functions.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/functions.cpp.obj.provides.build
-.PHONY : CMakeFiles/HuffmanTree.dir/functions.cpp.obj.provides
-
-CMakeFiles/HuffmanTree.dir/functions.cpp.obj.provides.build: CMakeFiles/HuffmanTree.dir/functions.cpp.obj
-
-
 # Object files for target HuffmanTree
 HuffmanTree_OBJECTS = \
 "CMakeFiles/HuffmanTree.dir/main.cpp.obj" \
 "CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj" \
-"CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj" \
-"CMakeFiles/HuffmanTree.dir/functions.cpp.obj"
+"CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj"
 
 # External object files for target HuffmanTree
 HuffmanTree_EXTERNAL_OBJECTS =
@@ -165,12 +140,11 @@ HuffmanTree_EXTERNAL_OBJECTS =
 HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/main.cpp.obj
 HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj
 HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj
-HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/functions.cpp.obj
 HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/build.make
 HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/linklibs.rsp
 HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/objects1.rsp
 HuffmanTree.exe: CMakeFiles/HuffmanTree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable HuffmanTree.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HuffmanTree.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HuffmanTree.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,7 +155,6 @@ CMakeFiles/HuffmanTree.dir/build: HuffmanTree.exe
 CMakeFiles/HuffmanTree.dir/requires: CMakeFiles/HuffmanTree.dir/main.cpp.obj.requires
 CMakeFiles/HuffmanTree.dir/requires: CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj.requires
 CMakeFiles/HuffmanTree.dir/requires: CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj.requires
-CMakeFiles/HuffmanTree.dir/requires: CMakeFiles/HuffmanTree.dir/functions.cpp.obj.requires
 
 .PHONY : CMakeFiles/HuffmanTree.dir/requires
 
@@ -190,6 +163,6 @@ CMakeFiles/HuffmanTree.dir/clean:
 .PHONY : CMakeFiles/HuffmanTree.dir/clean
 
 CMakeFiles/HuffmanTree.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\HuffmanTree D:\Code\HuffmanTree D:\Code\HuffmanTree\cmake-build-debug D:\Code\HuffmanTree\cmake-build-debug D:\Code\HuffmanTree\cmake-build-debug\CMakeFiles\HuffmanTree.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\DataStructure\HuffmanTree D:\Code\DataStructure\HuffmanTree D:\Code\DataStructure\HuffmanTree\cmake-build-debug D:\Code\DataStructure\HuffmanTree\cmake-build-debug D:\Code\DataStructure\HuffmanTree\cmake-build-debug\CMakeFiles\HuffmanTree.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HuffmanTree.dir/depend
 

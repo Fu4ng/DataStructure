@@ -4,10 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/HuffmanTree/HuffmanCode.cpp" "D:/Code/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj"
-  "D:/Code/HuffmanTree/HuffmanTree.cpp" "D:/Code/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj"
-  "D:/Code/HuffmanTree/functions.cpp" "D:/Code/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir/functions.cpp.obj"
-  "D:/Code/HuffmanTree/main.cpp" "D:/Code/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir/main.cpp.obj"
+  "D:/Code/DataStructure/HuffmanTree/HuffmanCode.cpp" "D:/Code/DataStructure/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj"
+  "D:/Code/DataStructure/HuffmanTree/HuffmanTree.cpp" "D:/Code/DataStructure/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj"
+  "D:/Code/DataStructure/HuffmanTree/main.cpp" "D:/Code/DataStructure/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

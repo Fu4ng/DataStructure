@@ -7,9 +7,6 @@ CMakeFiles/HuffmanTree.dir/HuffmanCode.cpp.obj: ../HuffmanCode.cpp
 CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj: ../Huffman.h
 CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj: ../HuffmanTree.cpp
 
-CMakeFiles/HuffmanTree.dir/functions.cpp.obj: ../Huffman.h
-CMakeFiles/HuffmanTree.dir/functions.cpp.obj: ../functions.cpp
-
 CMakeFiles/HuffmanTree.dir/main.cpp.obj: ../Huffman.h
 CMakeFiles/HuffmanTree.dir/main.cpp.obj: ../main.cpp
 

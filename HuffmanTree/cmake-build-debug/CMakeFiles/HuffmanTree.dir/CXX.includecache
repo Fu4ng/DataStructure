@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Code/HuffmanTree/Huffman.h
+D:/Code/DataStructure/HuffmanTree/Huffman.h
 
-D:/Code/HuffmanTree/HuffmanCode.cpp
+D:/Code/DataStructure/HuffmanTree/HuffmanCode.cpp
 iostream
 -
 Huffman.h
-D:/Code/HuffmanTree/Huffman.h
+D:/Code/DataStructure/HuffmanTree/Huffman.h
 
-D:/Code/HuffmanTree/HuffmanTree.cpp
+D:/Code/DataStructure/HuffmanTree/HuffmanTree.cpp
 iostream
 -
 cstring
@@ -22,21 +22,13 @@ cstring
 fstream
 -
 Huffman.h
-D:/Code/HuffmanTree/Huffman.h
+D:/Code/DataStructure/HuffmanTree/Huffman.h
 
-D:/Code/HuffmanTree/functions.cpp
+D:/Code/DataStructure/HuffmanTree/main.cpp
 iostream
 -
 fstream
 -
 Huffman.h
-D:/Code/HuffmanTree/Huffman.h
-
-D:/Code/HuffmanTree/main.cpp
-iostream
--
-fstream
--
-Huffman.h
-D:/Code/HuffmanTree/Huffman.h
+D:/Code/DataStructure/HuffmanTree/Huffman.h
 
