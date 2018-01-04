@@ -213,3 +213,96 @@ void IS(Mx &M) {
     else
         cout<<"¾ßÓÐ´«µÝÐÔ"<<endl;
 }
+
+//
+bool MatrixEqual(Mx M1,Mx M2){ //ÅÐ¶ÏÁ½¸ö¾ØÕóÊÇ·ñÏàµÈ
+    bool eq=true;
+    if(M1.cols!=M2.cols||M1.rows!=M2.rows){
+        eq= false;
+    }
+    else{
+        for (int i = 0; i <M1.rows ; ++i) {
+            for (int j = 0; j <M1.cols; ++j) {
+                if(M1.matrix[i][j]!=M2.matrix[i][j])
+                {
+                    eq = false;
+                    i = M1.rows; //Ìø³öÑ­»·
+                    break;
+                }
+            }//for
+        }//for
+    }//else
+    return eq;
+}
+void CreateI(Mx &M, int n ){
+    //½¨Á¢Ò»¸ö¶Ô½ÇÏßÎª1 µÄ¾ØÕó
+    M.cols = n;M.rows = n;
+    CreateMatrix(M);
+    InitialMatrix(M);
+    for (int i = 0; i < n; ++i) {
+        M.matrix[i][i] = 1;
+    }
+}
+Mx MatrixMul(Mx M,Mx M1){
+    //¾ØÕóÏà³Ë
+    Mx M2;
+    M2.cols = M.cols;
+    M2.rows = M.rows;
+    CreateMatrix(M2);
+    for(int i = 0;i<M.rows;i++){
+	for(int j = 0;j<M.cols;j++){
+		for(int k = 0;k<M.rows;k++){
+			M2.matrix[i][j]+= (M.matrix[i][k]*M1.matrix[k][i]);
+		}
+	}//sed for
+    }//fst for
+    return M2;
+}
+
+void BCS(Mx M){//Í¨¹ý±Õ°üÑéÖ¤×Ô·´
+    Mx M1 ,I;
+    CreateI(I,M.cols);
+    CopyMatrix(M1,M);
+    M1 = Union(M,I);
+    if(MatrixEqual(M,M1)) cout<<"==¾ØÕó×Ô·´=="<<endl;
+    else cout<<"==¾ØÕó²»×Ô·´=="<<endl;
+
+}
+void BMS(Mx M){
+    Mx M1;
+    CopyMatrix(M1,M);
+    for (int i = 0; i <M1.cols ; ++i) {
+        for (int j = 0; j < M1.rows; ++j) {
+            if(M1.matrix[i][j]==1) M1.matrix[j][i]=1;
+        }
+    }//for
+    if(MatrixEqual(M,M1)) cout<<"==¾ØÕó¶Ô³Æ=="<<endl;
+    else cout<<"==¾ØÕó²»¶Ô³Æ=="<<endl;
+}
+void BIS(Mx M){
+    //ÅÐ¶Ï¾ØÕóÊÇ·ñ´«µÝ
+    Mx M1;
+    Mx M2;
+    int n = M.cols;
+    CopyMatrix(M1,M);
+    CopyMatrix(M2,M);
+    while(n--){
+	M1 = MatrixMul(M,M1);
+	M2 = Union(M1,M2);
+    }//¿¿M¿n¿¿
+    if(MatrixEqual(M,M2)) cout<<"¿¿¿¿"<<endl;
+    else cout<<"¿¿¿¿¿"<<endl;
+}
+Mx Achieve(M){
+	Mx MA;
+	CopyMatrix(MA,M);
+	//n to m
+	for(int i = 0;i<M.cols;i++){
+			MA.matrix[i][i] = 1;
+		for(int j = 0;j<M.rows;j++){
+			if(MA.matrix[i][j]) MA.matrix[i][j] =1;
+		}//second for
+	}//first for
+	return MA;
+}
+

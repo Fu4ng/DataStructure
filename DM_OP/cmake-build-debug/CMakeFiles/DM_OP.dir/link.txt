@@ -1,3 +1,1 @@
-"D:\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\DM_OP.dir/objects.a
-C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\DM_OP.dir/objects.a @CMakeFiles\DM_OP.dir\objects1.rsp
-C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\DM_OP.dir/objects.a -Wl,--no-whole-archive  -o DM_OP.exe -Wl,--out-implib,libDM_OP.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DM_OP.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/DM_OP.dir/main.cpp.o CMakeFiles/DM_OP.dir/DM_OP.cpp.o  -o DM_OP 
