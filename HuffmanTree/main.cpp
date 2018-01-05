@@ -19,22 +19,21 @@ int main() {
 //    int *w = new int[n];char *c = new char[n];
 //    InputCharacter(f,n,w,c);
 //    StoreText();
-////                此部分代码可用于快速测试（不用输入27个字符）
-////    int w[27]={186,64,13,22,32,103,21,15,47,57,1,5,32,20,57,63,15,
-////               1,48,51,80,23,8,18,1,16,1};
-////    char c[27] = {' ','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P',
-////                  'Q','R','S','T','U','V','W','X','Y','Z'};
-////    int n = 27;
-////    // de
-////    HuffmanTree HT;
-////    CreateHuffmanTree(HT,w,n);
-////    StoreHfmTree(HT,n);
-////    HuffmanCode HC;
-////    HuffmanCoding(HT,HC,n);
-////    PrintTree(HT,c,w,n);
-////    Encoding_RAM(HC,c);
-////    Decoding(HT,w,c,n);
-////    ReadPrintCode();
+//                此部分代码可用于快速测试（不用输入27个字符）
+//    int w[27]={186,64,13,22,32,103,21,15,47,57,1,5,32,20,57,63,15,
+//               1,48,51,80,23,8,18,1,16,1};
+//    char c[27] = {' ','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P',
+//                  'Q','R','S','T','U','V','W','X','Y','Z'};
+//    int n = 27;
+//    // de
+//    HuffmanTree HT;
+//    CreateHuffmanTree(HT,w,n);
+//    StoreHfmTree(HT,n);
+//    HuffmanCode HC;
+//    HuffmanCoding(HT,HC,n);
+//    Encoding_RAM(HC,c);
+//    Decoding(HT,w,c,n);
+//    ReadPrintCode();
     HuffmanTree HT;
     HuffmanCode HC;
     char q =Menu();

@@ -2,7 +2,7 @@
 // Created by Fu4ng on 2017/12/28.
 //
 #include <iostream>
-#include "DM_OP_h.h"
+//#include "DM_OP_h.h"
 using namespace std;
 
 //mini function
@@ -162,6 +162,18 @@ Mx DifferenceOfSet(Mx M1,Mx M2){
     Mx M = Intersection(M1,M2);
     return M;
 }
+Mx Achieve(Mx M){
+    Mx MA;
+    CopyMatrix(MA,M);
+    //n to m
+    for(int i = 0;i<M.cols;i++){
+        MA.matrix[i][i] = 1;
+        for(int j = 0;j<M.rows;j++){
+            if(MA.matrix[i][j]) MA.matrix[i][j] =1;
+        }//second for
+    }//first for
+    return MA;
+}
 
 void CS(Mx &M) {  //ÑéÖ¤×Ô·´
     int s=0;
@@ -289,20 +301,9 @@ void BIS(Mx M){
     while(n--){
 	M1 = MatrixMul(M,M1);
 	M2 = Union(M1,M2);
-    }//¿¿M¿n¿¿
-    if(MatrixEqual(M,M2)) cout<<"¿¿¿¿"<<endl;
-    else cout<<"¿¿¿¿¿"<<endl;
+    }
+    if(MatrixEqual(M,M2)) cout<<"¾ØÕó´«µÝ"<<endl;
+    else cout<<"¾ØÕó²»´«µÝ"<<endl;
 }
-Mx Achieve(M){
-	Mx MA;
-	CopyMatrix(MA,M);
-	//n to m
-	for(int i = 0;i<M.cols;i++){
-			MA.matrix[i][i] = 1;
-		for(int j = 0;j<M.rows;j++){
-			if(MA.matrix[i][j]) MA.matrix[i][j] =1;
-		}//second for
-	}//first for
-	return MA;
-}
+
 
