@@ -19,7 +19,7 @@ typedef struct VNode{   //结点
 	 
 }VNode,AdjList[MVNum];  //AdjList是邻接表类型
 typedef struct{			//邻接表 
-	AdjList vertices;  //顶点数组 
+	AdjList *vertices;  //顶点数组 
 	int vexs,arcs;  //图的顶点数和边数 
 }ALGraph; 
 template<typename T>
@@ -27,6 +27,12 @@ int index(T *a,T c){
 	int index;
 	for(index = 0;a[index]&&a[index]!=c;index++);
 	return index;
+}
+int index_T(ALGraph G,int v){
+    int index = 0;
+    while(G.vertices[index].data!= v)
+        index++;
+    return index;
 }
 void CreateM(AMGraph &G){ //邻接矩阵 _创建图 
 	cout<<"输入顶点数：";cin>>G.vexnum;
@@ -68,8 +74,8 @@ void CreateT(ALGraph &G){ //邻接表 _创建图
 		cout<<"输入权值：" ;
 		cin>>w;
 		int row,col;
-		row = index(G.vertices,v1);
-		col = index(G.vertices,v2);
+		row = index_T(G,v1);
+		col = index_T(G,v2);
 		ArcNode* p1 = new ArcNode;
 		ArcNode* p2 = new ArcNode;
 		

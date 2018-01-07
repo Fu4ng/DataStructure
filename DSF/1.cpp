@@ -1,3 +1,10 @@
+/*
+	Name: 自己设计算法1,算法2和算法3,使其时间复杂度分别为O(1),O(n)和O(logn).
+	Copyright: 
+	Author: JunLong 
+	Date: 05/01/18 13:01
+	Description: 
+*/
 
 #include <iostream>
 using namespace std;

@@ -1,3 +1,10 @@
+/*
+	Name: 将作业二各个算法中的顺序表改为带头结点的单向链表实现.
+	Copyright: 
+	Author: JunLong 
+	Date: 05/01/18 14:19
+	Description: 
+*/
 #include <iostream>
 using namespace std;
 #define MAXQSIZE 6

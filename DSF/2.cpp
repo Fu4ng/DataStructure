@@ -1,3 +1,13 @@
+/*
+	Name: 1. 设计如下有关顺序表的算法:
+(1) SqList  CreateSqList(int n): n为顺序表的元素个数,各个元素值由键盘随机输入,函数返  回所生成的顺序表.
+(2)void InsertSq(SqList& L, ElemType x,int pos): 将元素x插入到顺序表L中的pos处(pos>=1).
+(3)ElemType  DeleteSq(SqList& L, int pos):删除顺序表L位置pos处的元素,返回删除元素值.
+(4)设计测试程序.
+	Author: JunLong 
+	Date: 05/01/18 13:21
+	Description: 
+*/
 #include <iostream>
 using namespace std;
 typedef int ElemType;

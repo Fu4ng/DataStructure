@@ -1,55 +1,64 @@
+/*
+	Name: 将1.对链队列实现如下几个操作:
+(1)创建队列  (2)入队   (3)出队   (4)判空
+	Copyright: 
+	Author: JunLong 
+	Date: 05/01/18 16:38
+	Description: 
+*/
 #include <iostream>
 using namespace std;
-typedef char TElemType;
- typedef struct BiTNode{
- 	TElemType data;
- 	struct BiTNode *lchild,*rchild;
- }BiTNode,*BiTree;
- 
-void CreateBT(BiTree &T){
-	//先序建立二叉树
-	char d; //此时为字符类型 
-	cin>>d; 
-	if(d=='#') 
-	{
-		T = NULL;	
-	}
-	else{
-		T = new BiTNode; 
-		T->data = d;
-		CreateBT(T->lchild);
-		CreateBT(T->rchild);
-	} 
-} 
+#define MAXQSIZE 6
+typedef int QElemType; 
+typedef struct QNode{  //结点结构体 
+	QElemType data;
+	struct QNode *next;
+}QNode,*QueuePtr;
+typedef struct{      //链表结构体，包含头尾指针 
+	QueuePtr f;
+	QueuePtr r; 
+}LinkQueue;
 
-void CopyBT(BiTree &C,BiTree T){
-	if(!T){
-		C = NULL;
-	}
-	else {
-		C = new BiTNode;
-		C->data = T->data;
-		CopyBT(C->lchild,T->lchild);
-		CopyBT(C->rchild,T->rchild);
-	}
-} 
-void PreOrder(BiTree T){  //先序输出 
- 	if(T!=NULL)
- 	{	
-	 	cout<<T->data<<endl;
-		PreOrder(T->lchild);
-		PreOrder(T->rchild);
-	}
-	else cout<<endl;
+bool IsEmpty(LinkQueue q){//判空
+	if(q.f->next == NULL) return 1;
+	else return 0; 
 }
-int main(){
-	BiTree T;
-	BiTree C;
-	CreateBT(T);
-	CopyBT(C,T);
-	//PreOrder(T);
-	PreOrder(C);
-	 
-	
+void InitQueue(LinkQueue &q){//创建队列 
+	q.f = new QNode;
+	q.r = new QNode;
+	q.f =q.r;           //判空条件是r = f 
+	q.f->next =NULL;    //头指针置空 
+} 
+void EnQueue(LinkQueue &q,QElemType e){//入队 
+	QueuePtr p =new QNode;
+	p->data = e;
+	p->next = NULL; q.r->next = p;
+	q.r = p;
+} 
+void DeQueue(LinkQueue &q){//出队
+	 	if(IsEmpty(q))  //队空
+	 	return ;
+		
+		QueuePtr p = new QNode;
+		p = q.f->next;
+		q.f->next = q.f->next->next;
+		//最后一个头指针
+		if(q.r == p) q.r=q.f; 	
+	 	delete p;
+}
 
+int main(){
+	LinkQueue q;
+	InitQueue(q);
+	cout<<IsEmpty(q)<<endl;
+	for(int i=0;i<5;i++) EnQueue(q,i);
+	DeQueue(q);
+	QueuePtr t = q.f->next;
+	for(int i=0;i<4;i++) {
+		cout<<t->data;
+		t = t->next;
+	}
+	cout<<endl;
+	cout<<IsEmpty(q)<<endl;
+	
 } 
